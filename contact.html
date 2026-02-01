@@ -1,15 +1,53 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kontaktieren Sie uns - Wir freuen uns auf Ihre Nachricht und helfen Ihnen gerne weiter."
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Contact</title>
+    <title>Kontakt - Nehmen Sie Kontakt mit uns auf</title>
   </head>
   <body>
-    <p>About me</p>
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="photo.html">Photo</a>
+        <a href="contact.html">Kontakt</a>
+      </nav>
+    </header>
 
-    <a href="photo.html">Photo</a>
-    <a href="index.html">Home</a>
+    <main>
+      <h1>Kontakt</h1>
+
+      <section>
+        <h2>Schreiben Sie uns</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">E-Mail:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Nachricht:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Absenden</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Kontaktinformationen</h2>
+        <p><strong>E-Mail:</strong> info@beispiel.de</p>
+        <p><strong>Telefon:</strong> +49 123 456789</p>
+        <p><strong>Adresse:</strong> Musterstraße 123, 12345 Musterstadt</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Alle Rechte vorbehalten</p>
+    </footer>
   </body>
 </html>
